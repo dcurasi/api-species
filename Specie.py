@@ -18,8 +18,8 @@ class Specie:
 
   def setConservationMeasures(self, conservation_measures):
     cm_size = len(conservation_measures)
-    for key, cm in conservation_measures
-        if(key == (cm_size - 1))
-            self.conservation_measures .= cm.title
-        else
-            self.conservation_measures .= cm.title + ", "
+    for key, cm in conservation_measures:
+        if(key == (cm_size - 1)):
+            self.conservation_measures += cm.title
+        else:
+            self.conservation_measures += cm.title + ", "
